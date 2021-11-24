@@ -5,7 +5,7 @@ IBM PROJECT-HEALTHCARE DISEASE PREDICTION MODEL
 
 ![image](https://user-images.githubusercontent.com/83333946/143204061-40bbe3d7-71fb-4c3f-8232-9f65eaff378c.png)
 
-# Machine learning Lifeccyle of this project
+# Machine learning Lifecyle of this project
 ![image](https://user-images.githubusercontent.com/83333946/143204760-0767a326-c6c2-4dfc-a8aa-3addf70e5af1.png)
 
 
