@@ -115,4 +115,15 @@ K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on 
 
 ![image](https://user-images.githubusercontent.com/94900940/143209318-63d98c52-9be6-48b0-a899-db1d70da2909.png)
 
+#Future Scope
+
+1. To integrate the predicted disease and specialist to a nearby hospital having the specialist
+
+2. Deploying the model on a cloud platform
+
+3. Provision for providing more symptoms
+
+
+
+
 
