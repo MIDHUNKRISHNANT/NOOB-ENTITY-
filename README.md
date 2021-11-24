@@ -1,7 +1,9 @@
 # NOOB-ENTITY-
 IBM PROJECT-HEALTHCARE DISEASE PREDICTION MODEL
 
-![image](https://user-images.githubusercontent.com/83333946/143204061-40bbe3d7-71fb-4c3f-8232-9f65eaff378c.png)
+# Complete Workflow
+
+>![image](https://user-images.githubusercontent.com/83333946/143204061-40bbe3d7-71fb-4c3f-8232-9f65eaff378c.png)
 
 
 # Machine Learning Algorithms Used:
