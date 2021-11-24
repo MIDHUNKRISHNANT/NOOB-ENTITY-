@@ -4,7 +4,7 @@ IBM PROJECT-HEALTHCARE DISEASE PREDICTION MODEL
 AIM: THIS PROJECT IS TO DEVELOP A HEALTHCARE DISEASE AND SPECIALIST PREDICTION MODEL 
 
 INFORMATION ABOUT DATASET
-This dataset consist of various diseases and its symptoms
+This dataset consist of various major diseases and its symptoms.
 
 
 ### LIBRARIES USED IN THIS PROJECT:
