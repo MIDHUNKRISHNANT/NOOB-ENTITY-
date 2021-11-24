@@ -16,7 +16,6 @@ This dataset consist of various diseases and its symptoms
 >3-TKINTER-For User Interface
 
 >4-SCIKIT-LEARN-It is a free software machine learning library for the Python programming language.It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting,k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
->5-NUMPY
 
 # Complete Workflow
 
@@ -102,12 +101,12 @@ K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on 
 
 **The K-NN working can be explained on the basis of the below algorithm:**
 
->1: Select the number K of the neighbors
->2: Calculate the Euclidean distance of K number of neighbors
->3: Take the K nearest neighbors as per the calculated Euclidean distance.
->4: Among these k neighbors, count the number of the data points in each category.
->5: Assign the new data points to that category for which the number of the neighbor is maximum.
->6: Model is ready.
+-1: Select the number K of the neighbors
+-2: Calculate the Euclidean distance of K number of neighbors
+-3: Take the K nearest neighbors as per the calculated Euclidean distance.
+-4: Among these k neighbors, count the number of the data points in each category.
+-5: Assign the new data points to that category for which the number of the neighbor is maximum.
+-6: Model is ready.
 
 ![image](https://user-images.githubusercontent.com/94900940/143209318-63d98c52-9be6-48b0-a899-db1d70da2909.png)
 
