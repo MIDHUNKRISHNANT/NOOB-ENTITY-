@@ -96,13 +96,13 @@ def Exit():
         exit()
         
 #Headings for the GUI written at the top of GUI
-w2 = Label(root, justify=LEFT, text="Disease - Speacialist Prediction", fg="Black", bg="white")
-w2.config(font=("Times",30,"bold"))
-w2.grid(row=1, column=0, columnspan=2, padx=100)
+w2 = Label(root, justify=LEFT, text="DISEASE - SPECIALIST PREDICTION", fg="Black", bg="white")
+w2.config(font=("Times",40,"bold"))
+w2.grid(row=1, column=0, columnspan=3, padx=100)
 
 #Label for the name of the patient
 NameLb = Label(root, text="Name of the Patient", fg="Black", bg="white")
-NameLb.config(font=("Times",15,"bold"))
+NameLb.config(font=("Times",20,"bold"))
 NameLb.grid(row=6, column=0, pady=15, sticky=W)
 
 #Creating Labels for the symtoms of which two symptoms are compulsory
@@ -156,19 +156,19 @@ S5.grid(row=11, column=1)
 
 #Buttons for predicting the disease using DecisionTree algorithm
 dst = Button(root, text="Find Your Disease", command=DecisionTree,bg="grey",fg="white")
-dst.config(font=("Times",15,"bold italic"))
+dst.config(font=("Times",15,"bold"))
 dst.grid(row=6, column=3,padx=10)
 
 rs = Button(root,text="Reset Inputs", command=Reset,bg="yellow",fg="Black",width=15)
-rs.config(font=("Times",15,"bold italic"))
+rs.config(font=("Times",15,"bold"))
 rs.grid(row=10,column=3,padx=10)
 
 ex = Button(root,text="Exit System", command=Exit,bg="Red",fg="Black",width=15)
-ex.config(font=("Times",15,"bold italic"))
+ex.config(font=("Times",15,"bold"))
 ex.grid(row=11,column=3,padx=10)
 
 #Showing the output of DecisionTree algorithm
-t1=Label(root,font=("Times",15,"bold italic"),text="Decision Tree",height=1,bg="green"
+t1=Label(root,font=("Times",15,"bold"),text="Decision Tree",height=1,bg="green"
          ,width=40,fg="Black",textvariable=pred1,relief="sunken").grid(row=15, column=1, padx=10)
 
 #calling this function because the application is ready to run
