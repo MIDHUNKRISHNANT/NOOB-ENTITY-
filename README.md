@@ -16,7 +16,9 @@ the reason that the random forest model works so well is:
 ## Naive Bayes  :
 ![image](https://user-images.githubusercontent.com/83333946/143196439-05a4a597-2003-47f9-b923-9944018959ee.png)
 A Naive Bayes classifier is a probabilistic machine learning model that’s used for classification task. The crux of the classifier is based on the Bayes theorem.
+
 ![image](https://user-images.githubusercontent.com/83333946/143196612-4dd44a44-28ab-45a0-8a18-b33c42943232.png)
+
 Using Bayes theorem, we can find the probability of A happening, given that B has occurred. Here, B is the evidence and A is the hypothesis. The assumption made here is that the predictors/features are independent. That is presence of one particular feature does not affect the other. Hence it is called naive.
 It is mainly used in text classification that includes a high-dimensional training dataset.
 It is a probabilistic classifier, which means it predicts on the basis of the probability of an object.
