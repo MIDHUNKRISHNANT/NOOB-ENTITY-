@@ -1,7 +1,28 @@
 # NOOB-ENTITY-
 IBM PROJECT-HEALTHCARE DISEASE PREDICTION MODEL
 
-![image](https://user-images.githubusercontent.com/83333946/143203975-81d64ebe-c3f1-4101-a4a7-f596eae80e9d.png)
+AIM: THIS PROJECT IS TO DEVELOP A HEALTHCARE DISEASE AND SPECIALIST PREDICTION MODEL 
+
+INFORMATION ABOUT DATASET
+This dataset consist of various diseases and its symptoms
+
+
+LIBRARIES USED IN THIS PROJECT:
+
+>1-PANDAS- It is a library written for the Python programming language for data manipulation and analysis.
+
+>2-MATPLOTLIB-Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+
+>3-TKINTER-For User Interface
+
+>4-SCIKIT-LEARN-It is a free software machine learning library for the Python programming language.It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting,k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
+
+# Complete Workflow
+
+![image](https://user-images.githubusercontent.com/83333946/143204061-40bbe3d7-71fb-4c3f-8232-9f65eaff378c.png)
+
+# Machine learning Lifecyle of this project
+![image](https://user-images.githubusercontent.com/83333946/143204760-0767a326-c6c2-4dfc-a8aa-3addf70e5af1.png)
 
 
 # Machine Learning Algorithms Used:
@@ -54,8 +75,6 @@ Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental
 
 2.Generate Likelihood table by finding the probabilities of given features.
 
-
-
 3.Now, use Bayes theorem to calculate the posterior probability.
 
 **Python Implementation of the Naïve Bayes algorithm:**
@@ -72,18 +91,4 @@ Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental
   
   5.Visualizing the test set result.
 
-## K-Nearest Neighbor Algorithm:
-
- K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on Supervised Learning technique.K-NN algorithm assumes the similarity between the new case/data and available cases and put the new case into the category that is most similar to the available categories.K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
- ![image](https://user-images.githubusercontent.com/94900940/143205649-fba12dd3-1b4e-498c-b011-808efee682f5.png)
-
- 
-**The K-NN working can be explained on the basis of the below algorithm:**
-
-1: Select the number K of the neighbors
-2: Calculate the Euclidean distance of K number of neighbors
-3: Take the K nearest neighbors as per the calculated Euclidean distance.
-4: Among these k neighbors, count the number of the data points in each category.
-5: Assign the new data points to that category for which the number of the neighbor is maximum.
-6: Model is ready.
 
