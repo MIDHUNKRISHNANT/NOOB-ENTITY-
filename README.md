@@ -17,6 +17,8 @@ This dataset consist of various diseases and its symptoms
 
 >4-SCIKIT-LEARN-It is a free software machine learning library for the Python programming language.It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting,k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
 
+>5-NUMPY-For Cleaning,analyzing data. 
+
 # Complete Workflow
 
 ![image](https://user-images.githubusercontent.com/83333946/143204061-40bbe3d7-71fb-4c3f-8232-9f65eaff378c.png)
