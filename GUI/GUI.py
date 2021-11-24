@@ -94,4 +94,83 @@ def Exit():
     if qExit:
         root.destroy()
         exit()
+        
+#Headings for the GUI written at the top of GUI
+w2 = Label(root, justify=LEFT, text="Disease - Speacialist Prediction", fg="Black", bg="white")
+w2.config(font=("Times",30,"bold"))
+w2.grid(row=1, column=0, columnspan=2, padx=100)
+
+#Label for the name of the patient
+NameLb = Label(root, text="Name of the Patient", fg="Black", bg="white")
+NameLb.config(font=("Times",15,"bold"))
+NameLb.grid(row=6, column=0, pady=15, sticky=W)
+
+#Creating Labels for the symtoms of which two symptoms are compulsory
+S1Lb = Label(root, text="Symptom 1", fg="Black", bg="white")
+S1Lb.config(font=("Times",15,"bold"))
+S1Lb.grid(row=7, column=0, pady=10, sticky=W)
+
+S2Lb = Label(root, text="Symptom 2", fg="Black", bg="white")
+S2Lb.config(font=("Times",15,"bold"))
+S2Lb.grid(row=8, column=0, pady=10, sticky=W)
+
+S3Lb = Label(root, text="Symptom 3", fg="Black",bg="white")
+S3Lb.config(font=("Times",15,"bold"))
+S3Lb.grid(row=9, column=0, pady=10, sticky=W)
+
+S4Lb = Label(root, text="Symptom 4", fg="Black", bg="white")
+S4Lb.config(font=("Times",15,"bold"))
+S4Lb.grid(row=10, column=0, pady=10, sticky=W)
+
+S5Lb = Label(root, text="Symptom 5", fg="Black", bg="white")
+S5Lb.config(font=("Times",15,"bold"))
+S5Lb.grid(row=11, column=0, pady=10, sticky=W)
+
+#Labels for the Decision Tree algorithm
+
+lrLb = Label(root, text="Disease & Specialist", fg="Black", bg="white", width = 20)
+lrLb.config(font=("Times",30,"bold"))
+lrLb.grid(row=15, column=0, pady=10,sticky=W)
+
+OPTIONS = sorted(l1)
+
+#Taking name as input from user
+NameEn = Entry(root, textvariable=Name)
+NameEn.grid(row=6, column=1)
+
+#Taking Symptoms as input from the dropdown from the user
+S1 = OptionMenu(root, Symptom1,*OPTIONS)
+S1.grid(row=7, column=1)
+
+S2 = OptionMenu(root, Symptom2,*OPTIONS)
+S2.grid(row=8, column=1)
+
+S3 = OptionMenu(root, Symptom3,*OPTIONS)
+S3.grid(row=9, column=1)
+
+S4 = OptionMenu(root, Symptom4,*OPTIONS)
+S4.grid(row=10, column=1)
+
+S5 = OptionMenu(root, Symptom5,*OPTIONS)
+S5.grid(row=11, column=1)
+
+#Buttons for predicting the disease using DecisionTree algorithm
+dst = Button(root, text="Find Your Disease", command=DecisionTree,bg="grey",fg="white")
+dst.config(font=("Times",15,"bold italic"))
+dst.grid(row=6, column=3,padx=10)
+
+rs = Button(root,text="Reset Inputs", command=Reset,bg="yellow",fg="Black",width=15)
+rs.config(font=("Times",15,"bold italic"))
+rs.grid(row=10,column=3,padx=10)
+
+ex = Button(root,text="Exit System", command=Exit,bg="Red",fg="Black",width=15)
+ex.config(font=("Times",15,"bold italic"))
+ex.grid(row=11,column=3,padx=10)
+
+#Showing the output of DecisionTree algorithm
+t1=Label(root,font=("Times",15,"bold italic"),text="Decision Tree",height=1,bg="green"
+         ,width=40,fg="Black",textvariable=pred1,relief="sunken").grid(row=15, column=1, padx=10)
+
+#calling this function because the application is ready to run
+root.mainloop()
 
