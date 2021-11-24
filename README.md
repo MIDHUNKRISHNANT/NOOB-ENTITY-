@@ -99,7 +99,7 @@ K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on 
 ![image](https://user-images.githubusercontent.com/94900940/143209259-8785ed87-5dba-4e59-b454-6c5b7bfa0c9a.png)
 
 
-**The K-NN working can be explained on the basis of the below algorithm:
+**The K-NN working can be explained on the basis of the below algorithm:**
 
 >1: Select the number K of the neighbors
 >2: Calculate the Euclidean distance of K number of neighbors
