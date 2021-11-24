@@ -92,3 +92,22 @@ Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental
   5.Visualizing the test set result.
 
 
+## K-Nearest Neighbor Algorithm
+
+K-Nearest Neighbour is one of the simplest Machine Learning algorithms based on Supervised Learning technique. K-NN algorithm assumes the similarity between the new case/data and available cases and put the new case into the category that is most similar to the available categories.K-NN algorithm stores all the available data and classifies a new data point based on the similarity. This means when new data appears then it can be easily classified into a well suite category by using K- NN algorithm.
+
+![image](https://user-images.githubusercontent.com/94900940/143209259-8785ed87-5dba-4e59-b454-6c5b7bfa0c9a.png)
+
+
+**The K-NN working can be explained on the basis of the below algorithm:
+
+>1: Select the number K of the neighbors
+>2: Calculate the Euclidean distance of K number of neighbors
+>3: Take the K nearest neighbors as per the calculated Euclidean distance.
+>4: Among these k neighbors, count the number of the data points in each category.
+>5: Assign the new data points to that category for which the number of the neighbor is maximum.
+>6: Model is ready.
+
+![image](https://user-images.githubusercontent.com/94900940/143209318-63d98c52-9be6-48b0-a899-db1d70da2909.png)
+
+
