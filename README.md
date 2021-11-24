@@ -26,7 +26,7 @@ It is a probabilistic classifier, which means it predicts on the basis of the pr
 
 Some popular examples of Naïve Bayes Algorithm are spam filtration, Sentimental analysis, and classifying articles.
 
-Working of Naïve Bayes' Classifier:
+**Working of Naïve Bayes' Classifier:**
 
 1.Convert the given dataset into frequency tables.
 
@@ -34,9 +34,9 @@ Working of Naïve Bayes' Classifier:
 
 3.Now, use Bayes theorem to calculate the posterior probability.
 
-Python Implementation of the Naïve Bayes algorithm:
+**Python Implementation of the Naïve Bayes algorithm:**
 
-Steps to implement:
+**Steps to implement:**
 
   1.Data Pre-processing step
   
