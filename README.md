@@ -7,15 +7,15 @@ INFORMATION ABOUT DATASET
 This dataset consist of various diseases and its symptoms
 
 
-LIBRARIES USED IN THIS PROJECT:
+### LIBRARIES USED IN THIS PROJECT:
 
->1-PANDAS- It is a library written for the Python programming language for data manipulation and analysis.
+1-PANDAS- It is a library written for the Python programming language for data manipulation and analysis.
 
->2-MATPLOTLIB-Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+2-MATPLOTLIB-Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
 
->3-TKINTER-For User Interface
+3-TKINTER-For User Interface
 
->4-SCIKIT-LEARN-It is a free software machine learning library for the Python programming language.It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting,k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
+4-SCIKIT-LEARN-It is a free software machine learning library for the Python programming language.It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting,k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
 
 # Complete Workflow
 
