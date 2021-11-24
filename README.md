@@ -1,6 +1,9 @@
 # NOOB-ENTITY-
 IBM PROJECT-HEALTHCARE DISEASE PREDICTION MODEL
 
+![image](https://user-images.githubusercontent.com/83333946/143203769-d057ea43-7ba2-4ae0-9217-594237de24a1.png)
+
+
 # Machine Learning Algorithms Used:
 ## Decision Tree Algorithm:
 Decision Trees are some of the most used machine learning algorithms. They are used for both classification and Regression. Decision Trees as the name suggests works on a set of decisions derived from the data and its behavior.
