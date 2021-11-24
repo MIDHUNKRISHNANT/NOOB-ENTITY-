@@ -52,7 +52,7 @@ most votes becomes our model’s prediction (see figure below).
 The fundamental concept behind random forest is a simple but powerful one — the wisdom of crowds. In data science speak,
 the reason that the random forest model works so well is:
 >A large number of relatively uncorrelated models (trees) operating as a committee will outperform any of the individual constituent models.
-=======
+The reason for this wonderful effect is that the trees protect each other from their individual errors (as long as they don’t constantly all err in the same direction). While some trees may be wrong, many other trees will be right, so as a group the trees are able to move in the correct direction. 
 
 
 
