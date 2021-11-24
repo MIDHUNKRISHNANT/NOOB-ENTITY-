@@ -1,11 +1,27 @@
 # NOOB-ENTITY-
 IBM PROJECT-HEALTHCARE DISEASE PREDICTION MODEL
 
+AIM: THIS PROJECT IS TO DEVELOP A HEALTHCARE DISEASE AND SPECIALIST PREDICTION MODEL 
+
+INFORMATION ABOUT DATASET
+This dataset consist of various diseases and its symptoms
+
+
+LIBRARIES USED IN THIS PROJECT:
+
+1-PANDAS- It is a library written for the Python programming language for data manipulation and analysis.
+
+2-MATPLOTLIB-Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+
+3-TKINTER-For User Interface
+
+4-SCIKIT-LEARN-It is a free software machine learning library for the Python programming language.It features various classification, regression and clustering algorithms including support vector machines, random forests, gradient boosting,k-means and DBSCAN, and is designed to interoperate with the Python numerical and scientific libraries NumPy and SciPy.
+
 # Complete Workflow
 
 ![image](https://user-images.githubusercontent.com/83333946/143204061-40bbe3d7-71fb-4c3f-8232-9f65eaff378c.png)
 
-# Machine learning Lifecycle of this project
+# Machine learning Lifecyle of this project
 ![image](https://user-images.githubusercontent.com/83333946/143204760-0767a326-c6c2-4dfc-a8aa-3addf70e5af1.png)
 
 
